@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-ng-app="simpsonsApp">
+<head>
+    <title>Simpsons Characters</title>
+    <link href="css/simpsons.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <script src="javascript/angular-route.js"></script>
+    <script src="javascript/angular-animate.js"></script>
+    <script src="javascript/animations.js"></script>
+    <script src="javascript/controllers.js"></script>
+    <script src="javascript/app.js"></script>
+</head>
+<body>
+
+    <div id="wrap">
+        <header>
+            <img src="assets/images/simpsons_logo.jpg" alt="The Simpsons" title="The Simpsons" />
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+
+        <div id="content-wrap">
+            <div data-ng-view="" class="view-frame"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>By: Brent Icenogle</p>
+    </footer>
+</body>
+</html>

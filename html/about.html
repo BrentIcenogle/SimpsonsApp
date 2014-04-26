@@ -1,0 +1,13 @@
+﻿<article>
+    <h1>About this application</h1>
+    <p>
+        This single-page-application provides information on a variety of Simpsons characters. It searches for characters by name most relevant to your search. This app uses Angular.js and was created by Brent Icenogle on April 23, 2014.
+    </p>
+</article>
+
+<aside>
+    <h2>Searchable characters:</h2>
+    <ul data-ng-repeat="char in characters | filter:characterName">
+        <li>{{char.name}}</li>
+    </ul>
+</aside>

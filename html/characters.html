@@ -1,0 +1,14 @@
+﻿<article>
+    <h3>Enter your favorite Simpsons character:
+                <input type="text" data-ng-model="characterName.name">
+    </h3>
+    <div class="snippet" data-ng-repeat="char in characters | filter:characterName | limitTo: 1">
+        <h1>Name: {{char.name}}</h1>
+        <img src="assets/images/characters/{{char.picture}}" alt="{{char.name}}" title="{{char.name}}" />
+    </div>
+</article>
+
+<aside class="snippet" data-ng-repeat="char in characters | filter:characterName | limitTo: 1">
+    <h1 class="top">Catch phrase: "{{char.phrase}}"</h1>
+    <p>{{char.info}}</p>
+</aside>
