@@ -1,0 +1,174 @@
+﻿body {
+    font: 2em'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/*LAYOUT*/
+
+#wrap {
+    width: 100%;
+    text-align: center;
+}
+
+#content-wrap {
+    clear: both;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    header img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+/*  Navigation  */
+
+nav {
+    position: relative;
+    clear: both;
+    margin: 0;
+    padding-top: 0.3em;
+    width: 100%;
+}
+
+    nav ul {
+        float: left;
+        list-style: none;
+        margin: 0 0 0 0px;
+        padding: 0;
+        border-top: 0.10em solid black;
+        border-bottom: 0.10em solid black;
+        width: 100%;
+        background-color: yellow;
+    }
+
+        nav ul li {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul #top {
+            border-bottom: 0.10em solid black;
+        }
+
+        nav ul li a {
+            margin: 0;
+            padding: 0;
+            font: bold 0.8em 'Trebuchet MS', Helvetica, Arial, Geneva, sans-serif;
+            text-decoration: none;
+            color: blue;
+            text-transform: uppercase;
+        }
+
+            nav ul li a:hover {
+                color: red;
+                background: none;
+                border: none;
+            }
+
+/* Main Column */
+article {
+    float: left;
+    width: 100%;
+    margin: 0 0 0 0px;
+    display: inline;
+}
+
+    article h1 {
+        padding: 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font: bold 0.8em 'Trebuchet MS', Helvetica, Arial, sans-serif;
+        text-align: center;
+    }
+
+    article h4 {
+        font: bold 0.8em 'Trebuchet MS', Helvetica, Arial, sans-serif;
+        text-align: center;
+    }
+
+    article img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    article h3 {
+        width: 100%;
+        padding: 0px 0px;
+        font-size: 0.8em;
+        margin-bottom: -0.15em;
+    }
+
+    article #input {
+        width: 75%;
+        padding: 0px 0px;
+        font-size: 0.8em;
+        margin-bottom: 2em;
+    }
+
+    article p {
+        font: 0.6em 'Trebuchet MS', Helvetica, Arial, sans-serif;
+        width: 100%;
+    }
+
+/* Sidebar */
+aside {
+    clear: both;
+    width: 100%;
+    padding: 0;
+    margin-top: 2em;
+    display: inline;
+}
+
+    aside h1 {
+        font: italic 0.5em 'Trebuchet MS', Tahoma, Helvetica, Arial, sans-serif;
+    }
+
+    aside h2 {
+        font: bold 0.8em 'Trebuchet MS', Tahoma, Helvetica, Arial, sans-serif;
+    }
+
+    aside p {
+        text-align: left;
+        margin-left: 1em;
+        font-size: 0.5em;
+        line-height: 1.5;
+    }
+
+    aside ul {
+        list-style: none;
+        line-height: 1;
+        padding: 0;
+        font-size: 0.8em;
+    }
+
+        aside ul li {
+            padding: 0;
+            font: 'Trebuchet MS', Tahoma, Helvetica, Arial, sans-serif;
+        }
+
+/* footer */
+
+footer {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 2em;
+    background-color: aqua;
+    text-align: center;
+}
+
+    footer p {
+        padding-top: 0.5em;
+        font-size: 0.8em;
+    }

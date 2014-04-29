@@ -1,9 +1,8 @@
 ﻿<article>
-    <h3>Enter your favorite Simpsons character:
-                <input type="text" data-ng-model="characterName.name">
-    </h3>
+    <h3>Enter a character:</h3>
+    <input id="input" type="text" data-ng-model="characterName.name">
     <div class="snippet" data-ng-repeat="char in characters | filter:characterName | limitTo: 1">
-        <h1>Name: {{char.name}}</h1>
+        <h1>{{char.name}}</h1>
         <img src="assets/images/characters/{{char.picture}}" alt="{{char.name}}" title="{{char.name}}" />
     </div>
 </article>

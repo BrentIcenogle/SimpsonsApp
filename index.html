@@ -2,12 +2,14 @@
 <html lang="en" data-ng-app="simpsonsApp">
 <head>
     <title>Simpsons Characters</title>
-    <link href="css/simpsons.css" rel="stylesheet" />
+    <link href="css/handheld.css" rel="stylesheet" media="screen and (max-device-width: 999px)" />
+    <link href="css/simpsons.css" rel="stylesheet" media="screen and (min-device-width: 1000px)" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
     <script src="javascript/angular-route.js"></script>
     <script src="javascript/angular-animate.js"></script>
     <script src="javascript/controllers.js"></script>
     <script src="javascript/app.js"></script>
+    <meta name="viewport" content="initial-scale = 1.0" />
 </head>
 <body>
 
@@ -18,7 +20,7 @@
 
         <nav>
             <ul>
-                <li><a href="#characters">Characters</a></li>
+                <li id="top"><a href="#characters">Characters</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
         </nav>
